@@ -1,6 +1,6 @@
 .controls {
   background-color: #654242;
-  margin: auto;
+  margin: 25px auto;
   width: 560px;
   position: relative;
   border-radius: 6px;
@@ -20,4 +20,5 @@
   font-size: 20px;
   margin: 10px 0 10px 16px;
   width: 100px;
+  cursor: pointer;
 }
