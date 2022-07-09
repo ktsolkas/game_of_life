@@ -1,0 +1,5 @@
+@import "../GameControls/GameControls.css";
+
+.controls.speed-controls {
+  width: 460px;
+}

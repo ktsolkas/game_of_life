@@ -1,0 +1,16 @@
+body {
+  background: radial-gradient(ellipse at center, #bb4444 0%, #181818 83%);
+  background-attachment: fixed;
+  font-size: 16px;
+  font-family: Calibri;
+  color: #dcdcdc;
+}
+
+a {
+  color: #bbbbff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9898de;
+}
