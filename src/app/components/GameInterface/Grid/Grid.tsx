@@ -1,16 +1,18 @@
-import { useAppSelector } from "../../../hooks";
-import { selectGrid } from "../../../store/gameSlice";
-import Cell from "./Cell/Cell";
 import "./Grid.css";
 
+import Cell from "./Cell/Cell";
+import { dimensions } from "../../../store/gameSlice";
+
 const Grid: React.FC = () => {
-  const grid = useAppSelector(selectGrid);
-  console.log("au", grid);
+  const [rows, columns] = dimensions;
+
   return (
     <div className="grid">
-      {grid.map((array, index) => {
-        return array.map((status, innerIndex) => {
-          return <Cell key={`${index},${innerIndex}`} x={index} y={innerIndex} />;
+      {[...Array(rows).keys()].map((_, index) => {
+        return [...Array(columns).keys()].map((__, innerIndex) => {
+          return (
+            <Cell key={`${index},${innerIndex}`} x={index} y={innerIndex} />
+          );
         });
       })}
     </div>
