@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ktsolkas/game_of_life/static/css/main.3adb4655.css",
+    "main.js": "/ktsolkas/game_of_life/static/js/main.641d844d.js",
+    "index.html": "/ktsolkas/game_of_life/index.html",
+    "main.3adb4655.css.map": "/ktsolkas/game_of_life/static/css/main.3adb4655.css.map",
+    "main.641d844d.js.map": "/ktsolkas/game_of_life/static/js/main.641d844d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3adb4655.css",
+    "static/js/main.641d844d.js"
+  ]
+}
